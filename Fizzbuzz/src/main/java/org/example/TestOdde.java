@@ -1,4 +1,8 @@
+package org.example;
+
 public class TestOdde {
+    public String fizzBuzzBazz;
+
     public static String fizzBuzzBazz(int number) {
         StringBuilder result = new StringBuilder();
 
@@ -27,5 +31,7 @@ public class TestOdde {
         System.out.println(fizzBuzzBazz(35));  // BuzzBazz
         System.out.println(fizzBuzzBazz(105)); // FizzBuzzBazz
         System.out.println(fizzBuzzBazz(8));   // 8
+        System.out.println(fizzBuzzBazz(0));   // FizzBuzzBazz
+        System.out.println(fizzBuzzBazz(-3));   // Fizz
     }
 }
